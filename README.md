@@ -18,7 +18,7 @@ Software Requires
 - [MySql any version mine is 5.1.40-community -> Download](https://drive.google.com/file/d/1ZCIa45QW8BQIveQeYAa0iAxhxkLyEY5W/view?usp=drive_link)
 - [also download mysql connecter ](https://drive.google.com/file/d/12c3J-4ubO5LsOsz78Vd5AIupp1WtYtCa/view?usp=drive_link)
 - [tomcat any version ](https://tomcat.apache.org/download-90.cgi)
-- [IDE any Eclips/intellij/NetBeans]
+- IDE any Eclips/intellij/NetBeans
 - download git if ur using github or else
 
 ## Getting Started
@@ -35,14 +35,14 @@ This program has no pre-requisites
 1. Clone the repo
 
 ```sh
-git clone https://github.com/ShaanCoding/ReadME-Generator.git
+git clone https://github.com/rohitkalampatil/springcoreFirst.git
 ```
 
 2. Open The src/main/java file  and run
 
-3.all pojos and config are here see and edit and run
+3. all pojos and config are here see and edit and run
 
-## Contributing
+## Create some Your own POJO and Contributeit Here
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
