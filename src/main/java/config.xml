@@ -8,8 +8,6 @@
     http://www.springframework.org/schema/beans/spring-beans.xsd
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd
-  
-   
     ">
 	
 	<bean class="com.springcorefirst.Student" name="student">
@@ -23,7 +21,7 @@
 		</value>
 		</property>
 		<property name="studentAddress">
-		<value>delhi
+		<value>delhipune
 		</value>
 		</property>
 	</bean>
