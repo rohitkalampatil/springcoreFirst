@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd
+    ">
+
+
+	<!-- Addition bean -->
+	<bean class="constructorInjection.Addition" id="addition">
+		<constructor-arg value="12" type="itn"></constructor-arg>
+		<constructor-arg value="45" type="int"></constructor-arg>
+	</bean>
+	
+	<bean class="constructorInjection.Student" name="student">
+		<constructor-arg>
+			<value>23</value>
+		</constructor-arg>
+		<constructor-arg>
+			<value>Rohit</value>
+		</constructor-arg>
+	</bean>
+	<!-- more bean definitions for data access objects go here -->
+</beans>
