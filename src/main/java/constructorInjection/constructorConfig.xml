@@ -9,6 +9,13 @@
     http://www.springframework.org/schema/context/spring-context.xsd
     ">
 
+
+	<!-- Addition bean -->
+	<bean class="constructorInjection.Addition" id="addition">
+		<constructor-arg value="12" type="itn"></constructor-arg>
+		<constructor-arg value="45" type="int"></constructor-arg>
+	</bean>
+	
 	<bean class="constructorInjection.Student" name="student">
 		<constructor-arg>
 			<value>23</value>
