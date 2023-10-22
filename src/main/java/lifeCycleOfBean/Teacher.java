@@ -27,7 +27,7 @@ public class Teacher implements InitializingBean, DisposableBean{
 
 	@Override
 	public void destroy() throws Exception {
-		System.out.println("Teachers destroy method called");
+		System.out.println("Teachers destroy");
 
 	}
 	

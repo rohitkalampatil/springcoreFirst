@@ -5,7 +5,7 @@ public class Student {
 	private int rn;
 	
 	public void init() {
-		System.out.println("in init method");
+		System.out.println("in Students init method");
 	}
 	
 	public int getRn() {
@@ -21,7 +21,7 @@ public class Student {
 		return "Student [rn=" + rn + "]";
 	}
 	public void destroy() {
-		System.out.println("in destroy method");
+		System.out.println("Student destroy");
 	}
 
 }

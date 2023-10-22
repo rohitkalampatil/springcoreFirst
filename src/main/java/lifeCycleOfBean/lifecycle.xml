@@ -9,18 +9,25 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd
     ">
+    
 	<context:property-placeholder
-		location="lifeCycleOfBean/student.properties" />
+		location="lifeCycleOfBean/student.properties" /> 
+		
+		
+	<!-- Student bean -->
 	<bean class="lifeCycleOfBean.Student" name="student"
 		init-method="init" destroy-method="destroy">
-		<!-- additional collaborators and configuration for this bean go here -->
 		<property name="rn" value="${rn}" />
-
 	</bean>
+	
+	<!-- Teacher Bean -->
 	<bean class="lifeCycleOfBean.Teacher" name="teacher">
-		<!-- additional collaborators and configuration for this bean go here -->
 		<property name="name" value="${name}" />
-
 	</bean>
-	<!-- more bean definitions for data access objects go here -->
+	
+	<!-- College Bean -->
+	<!-- Now we need to enable all annotations -->
+	<context:annotation-config/>
+	<bean class="lifeCycleOfBean.College" name="college"></bean>
+	
 </beans>
